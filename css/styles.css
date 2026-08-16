@@ -571,7 +571,7 @@ body[data-skin="maroon"] .hero__overlay {
   font-size: 0.6rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(255, 250, 242, 0.6);
+  color: rgba(230, 193, 92, 0.8);
 }
 
 /* Poetry lines in Hero */
@@ -585,11 +585,10 @@ body[data-skin="maroon"] .hero__overlay {
   font-style: italic;
   font-size: 0.88rem;
   line-height: 1.6;
-  color: var(--ivory);
+  color: #e6c15c;
   text-align: center;
   max-width: 90%;
   margin: 0 auto;
-  opacity: 0.9;
 }
 
 .eyebrow {
