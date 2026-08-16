@@ -654,6 +654,33 @@ body[data-skin="maroon"] .hero__overlay {
   color: rgba(255, 250, 242, 0.88);
 }
 
+@media (max-width: 479px) {
+  .hero__content {
+    padding: 1.8rem 1rem 1.2rem;
+  }
+  .bismillah-container {
+    margin-bottom: 0.5rem;
+  }
+  .bismillah-arabic {
+    font-size: 1.15rem;
+  }
+  .bismillah-translation {
+    font-size: 0.55rem;
+  }
+  .eyebrow {
+    font-size: 0.68rem;
+    margin-bottom: 0.4rem;
+  }
+  .couple-names .name {
+    font-size: 1.45rem;
+    line-height: 1.2;
+  }
+  .hero__tagline {
+    margin-top: 0.4rem;
+    font-size: 0.78rem;
+  }
+}
+
 .ambient-particles {
   position: absolute;
   inset: 0;
