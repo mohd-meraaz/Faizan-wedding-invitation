@@ -10,7 +10,7 @@
       name="description"
       content="Nikah Celebration — digital wedding invitation"
     />
-    <title>Faizan & Safiya · Nikah Celebration</title>
+    <title>Faizan & Sufiya · Nikah Celebration</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -108,7 +108,7 @@
                 <span class="ampersand" id="heroAmpersand" aria-hidden="true">&</span>
                 <span class="name name--bride" id="brideName"></span>
               </h1>
-              <p class="hero__tagline" id="heroTagline"></p>
+              <!-- <p class="hero__tagline" id="heroTagline"></p> -->
               <div class="star-divider" aria-hidden="true">
                 <span></span><i></i><span></span>
               </div>
@@ -294,67 +294,9 @@
           <div class="star-divider" aria-hidden="true"><span></span><i></i><span></span></div>
         </section>
 
-        <!-- Dress Code -->
-        <section class="section section--pad section--pattern reveal" id="dressCode">
-          <div class="corner-flourishes" aria-hidden="true"></div>
-          <h2 class="section-title" id="dressHeading">Dress Code</h2>
-          
-          <button type="button" class="dress-code-toggle" id="dressCodeToggle" aria-expanded="false" aria-controls="dressCodeDetails">
-            <span>Show Guidelines</span>
-            <span class="dress-code-toggle__icon" aria-hidden="true">▼</span>
-          </button>
-          
-          <div class="dress-code-details" id="dressCodeDetails">
-            <div>
-              <p class="dress-text" id="dressText"></p>
-              <div class="swatches" id="dressSwatches" role="list" aria-label="Suggested color palette"></div>
-            </div>
-          </div>
-          
-          <div class="star-divider" aria-hidden="true"><span></span><i></i><span></span></div>
-        </section>
+       
 
-        <!-- RSVP Form -->
-        <section class="section section--pad reveal" id="rsvp">
-          <div class="corner-flourishes" aria-hidden="true"></div>
-          <h2 class="section-title" id="rsvpTitle">RSVP</h2>
-          <p class="section-sub" id="rsvpSub">We would be honoured by your presence</p>
-
-          <form class="rsvp-form" id="rsvpForm" novalidate>
-            <label class="field">
-              <span id="rsvpLabelName">Name</span>
-              <input type="text" name="name" id="rsvpInputName" required autocomplete="name" />
-            </label>
-            <label class="field">
-              <span id="rsvpLabelGuests">Number of Guests</span>
-              <input type="number" name="guests" min="1" max="10" value="1" required />
-            </label>
-            <fieldset class="field field--attend">
-              <legend id="rsvpLabelAttending">Attending</legend>
-              <div class="attend-toggle" role="group">
-                <button type="button" class="attend-btn is-active" id="rsvpBtnYes" data-value="yes">Yes</button>
-                <button type="button" class="attend-btn" id="rsvpBtnNo" data-value="no">No</button>
-              </div>
-              <input type="hidden" name="attending" id="attendingInput" value="yes" />
-            </fieldset>
-            <label class="field">
-              <span id="rsvpLabelMessage">Message / Mubarakbad</span>
-              <textarea name="message" id="rsvpInputMessage" rows="4"></textarea>
-            </label>
-            <button type="submit" class="btn btn--gold btn--submit" id="rsvpSubmitBtn">Submit RSVP</button>
-          </form>
-
-          <div class="rsvp-success" id="rsvpSuccess" hidden>
-            <svg class="check-svg" viewBox="0 0 52 52" aria-hidden="true">
-              <circle class="check-svg__circle" cx="26" cy="26" r="24" fill="none" />
-              <path class="check-svg__check" fill="none" d="M14 27 l8 8 16-16" />
-            </svg>
-            <p class="rsvp-success__title" id="rsvpSuccessTitle">JazakAllah Khair</p>
-            <p class="rsvp-success__msg" id="rsvpSuccessMsg">Your response has been received with love.</p>
-          </div>
-          <canvas class="confetti-layer" id="rsvpConfetti" aria-hidden="true"></canvas>
-          <div class="star-divider" aria-hidden="true"><span></span><i></i><span></span></div>
-        </section>
+       
 
         <!-- Footer -->
         <footer class="section footer reveal" id="footer">
@@ -385,7 +327,7 @@
         </svg>
       </button>
     </div>
-    <a href="#rsvp" class="float-btn float-btn--rsvp" id="rsvpQuick">RSVP</a>
+    <!-- <a href="#rsvp" class="float-btn float-btn--rsvp" id="rsvpQuick">RSVP</a> -->
 
     <audio id="bgMusic" loop preload="auto"></audio>
 

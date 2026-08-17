@@ -215,7 +215,7 @@
     const directionsBtn = document.getElementById("directionsBtn");
     if (directionsBtn) {
       directionsBtn.textContent = H.directions[lang];
-      directionsBtn.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(C.venue.mapsQuery)}`;
+      directionsBtn.href = C.venue.mapsLink || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(C.venue.mapsQuery)}`;
     }
     const map = document.getElementById("venueMap");
     if (map && !map.src) {

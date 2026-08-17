@@ -1,6 +1,6 @@
 /**
  * Royal Elegance — Wedding Invitation Template
- * Customized for Mirza Mohammad Faizan & Siddiqui Safiya Bano
+ * Customized for Mirza Mohammad Faizan & Siddiqui Sufiya Bano
  * Contains full English & Urdu localization strings.
  */
 window.CONFIG = {
@@ -10,7 +10,7 @@ window.CONFIG = {
     bismillah: true,
   },
   couple: {
-    bride: "Safiya",
+    bride: "Sufiya",
     groom: "Faizan",
     monogram: "F & S",
   },
@@ -19,9 +19,10 @@ window.CONFIG = {
     date: "2026-10-15T15:00:00",
   },
   venue: {
-    name: "Gulnaz Nagar (Baraat & Nikah)",
-    address: "Plot No. 64/65, Gulnaz Nagar, Un, Surat, Gujarat",
-    mapsQuery: "Gulnaz Nagar, Un, Surat, Gujarat",
+    name: "Milan Hall",
+    address: "Gali Number 3, near Madina Masjid Road, Shastri Chowk, Railway Colony, Limbayat, Surat, Gujarat - 395012",
+    mapsQuery: "Milan Hall, Limbayat, Surat, Gujarat 395012",
+    mapsLink: "https://maps.app.goo.gl/DxrUQyA756f27jN7A",
     mapsEmbed: "",
   },
   music: {
@@ -43,13 +44,6 @@ window.CONFIG = {
       caption: {
         en: "By the grace of Allah, our journeys crossed",
         ur: "اللہ تعالیٰ کے فضل سے، ہماری راہیں ملیں"
-      }
-    },
-    {
-      image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=900&q=80",
-      caption: {
-        en: "A quiet moment of reflection and prayer",
-        ur: "دعا اور شکر گزاری کے پرسکون لمحات"
       }
     },
     {
@@ -90,13 +84,13 @@ window.CONFIG = {
     groom: {
       name: { en: "Mirza Mohammad Faizan", ur: "مرزا محمد فیضان" },
       relation: { en: "Son of Mirza Mohammad Faiyaz", ur: "ولد مرزا محمد فیاض" },
-      residence: { en: "Sudesar, Fatehpur (U.P.)", ur: "سُدیسر، فتح پور (اتر پردیش)" },
+      residence: { en: "Sudesra, Fatehpur (U.P.)", ur: "سُدیسر، فتح پور (اتر پردیش)" },
       title: { en: "Noor-e-Chashm", ur: "نورِ چشم" }
     },
     bride: {
-      name: { en: "Siddiqui Safiya Bano", ur: "صدیقی صفیہ بانو" },
+      name: { en: "Siddiqui Sufiya Bano", ur: "صدیقی صفیہ بانو" },
       relation: { en: "Daughter of Mohammad Akbar Ali", ur: "دختر محمد اکبر علی" },
-      residence: { en: "Jahangir Nagar, Garhe, Fatehpur (U.P.)", ur: "جہانگیر نگر، گڑھے، فتح پور (اتر پردیش)" },
+      residence: { en: "Jahangir Nagar, Gahure, Fatehpur (U.P.)", ur: "جہانگیر نگر، گڑھے، فتح پور (اتر پردیش)" },
       title: { en: "Noor-e-Chashmi", ur: "نورِ چشمی" }
     },
 
@@ -148,7 +142,7 @@ window.CONFIG = {
         name: { en: "Baraat & Nikah", ur: "بارات و نکاح" },
         date: { en: "15 October 2026 (Thursday)", ur: "15 اکتوبر 2026 (جمعرات)" },
         time: { en: "3:00 PM", ur: "دوپہر 3:00 بجے" },
-        venue: { en: "Plot No. 64/65, Gulnaz Nagar, Un, Surat, Gujarat", ur: "پلاٹ نمبر 64/65، گلناز نگر، اُون، سورت، گجرات" },
+        venue: { en: " Unn, Surat, Gujarat", ur: " اُون، سورت، گجرات" },
         desc: {
           en: "Join us as we solemnize our marriage contract and bless the union under the grace of Allah.",
           ur: "اللہ تعالیٰ کے فضل سے، عقدِ نکاح اور بارات کی بابرکت محفل میں شرکت فرما کر دولہا دلہن کو دعاؤں سے نوازیں۔"
@@ -190,8 +184,8 @@ window.CONFIG = {
     houseAddress: {
       heading: { en: "House Address", ur: "گھر کا پتہ" },
       address: {
-        en: "Padmavati Society, Gali No. 1, Near Ezra Masjid, Limbayat, Surat, Gujarat – 394210",
-        ur: "پدماوتی سوسائٹی, گلی نمبر 1, عذرا مسجد کے پاس, لمبیایت, سورت, گجرات – 394210"
+        en: "Padmavati Society Gali No 1 Opp Raza Masjid Limbayat Surat 394210 9824560097/7359276397/6358959786",
+        ur: "پدماوتی سوسائٹی, گلی نمبر 1, عذرا مسجد کے پاس, لمبیایت, سورت, گجرات– 9824560097/7359276397/6358959786 0"
       }
     }
   },
